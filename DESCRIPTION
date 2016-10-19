@@ -1,0 +1,10 @@
+Package: STRIPS
+Title: STRIPS meta data and loading of all other public STRIPS data sets.
+Version: 0.0.0.9000
+Authors@R: person("Jarad", "Niemi", email = "niemi@iastate.edu", role = c("aut", "cre"))
+Description: Contains STRIPS meta data and loads other public STRIPS data sets
+  which are all created as individual packages by PI. 
+Depends: R (>= 3.0)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
