@@ -3,7 +3,7 @@ Title: STRIPS meta data and loading of all other public STRIPS data sets.
 Version: 0.1
 Authors@R: c(
     person("Jarad", "Niemi", email = "niemi@iastate.edu", role = c("aut", "cre")),
-    person("Lisa", "Schulte-Moore", email = "lschulet@iastate.edu", role = "aut")
+    person("Lisa", "Schulte-Moore", email = "lschulte@iastate.edu", role = "aut")
     )
 Description: Contains STRIPS meta data and loads other public STRIPS data sets
     which are all created as individual packages by PI.
