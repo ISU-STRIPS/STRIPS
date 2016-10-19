@@ -1,0 +1,13 @@
+watershed,NAD83_X,NAD83_Y,site,size_ha,slope_pct,location_and_percentage_of_grass_filters,treatment,prairie_pct,prairie_location,block
+Basswood1,476921.6995,4598453.9627,Basswood,0.53,7.5,10% at toeslope,10% prairie bottom,10,bottom,BasswoodA
+Basswood2,476919.5082,4598522.3677,Basswood,0.48,6.6,5% at toeslope and 5% at upslope,10% prairie strips,10,strips,BasswoodA
+Basswood3,476977.1952,4598625.056,Basswood,0.47,6.4,10% at toeslope and 10% upslope,20% prairie strips,20,strips,BasswoodA
+Basswood4,477104.1274,4598697.1245,Basswood,0.55,8.2,10% at toeslope and 10% upslope,20% prairie strips,20,strips,BasswoodB
+Basswood5,477206.685,4598740.4834,Basswood,1.24,8.9,5% at toeslope and 5% upslope,10% prairie strips,10,strips,BasswoodB
+Basswood6,477302.5101,4598757.5149,Basswood,0.84,10.5,all rowcrops,0% prairie,0,NA,BasswoodB
+Interim1,479250.7843,4600720.5718,Interim,3,7.7,"3.3% at toeslope, 3.3% at sideslope, and 3.3% at upslope",10% prairie strips,10,strips,Interim
+Interim2,479386.2533,4600651.634,Interim,3.19,6.1,10% at toeslope,10% prairie bottom,10,bottom,Interim
+Interim3,479208.3235,4600451.5383,Interim,0.73,9.3,all rowcrops,0% prairie,0,NA,Interim
+Orbweaver1,476982.0723,4599196.5883,Orbweaver,1.18,10.3,10% at toeslope,10% prairie bottom,10,bottom,Orbweaver
+Orbweaver2,477172.6506,4599901.9832,Orbweaver,2.4,6.7,"6.7% at toeslope, 6.7% at sidelslope, and 6.7% at upslope",20% prairie strips,20,strips,Orbweaver
+Orbweaver3,477246.7776,4599744.999,Orbweaver,1.24,6.6,all rowcrops,0% prairie,0,NA,Orbweaver
