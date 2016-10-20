@@ -22,6 +22,7 @@ The newly available data should be in an R package, e.g.
 immediately available to users, you should 
 
   1. Add the package to DESCRIPTION in both the Imports: and Remotes: sections.
-  2. Add the package to @import in the R/STRIPS/R documentation. 
-  3. Add the package to @section STRIPS packages:
-  4. Add a link to the package in @seealso
+  1. In R/STRIPS.R documentation, add the package to 
+    - @import
+    - @section STRIPS packages:
+    - @seealso

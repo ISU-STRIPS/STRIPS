@@ -7,7 +7,7 @@
 #' data newly made public.
 #'
 #' @section STRIPS packages:
-#'   \code{\link[STRIPSMeta]{STRIPSMeta}}
+#'   STRIPSMeta
 #'
 #' @seealso \code{\link[STRIPSMeta]{STRIPSMeta}}
 #'
