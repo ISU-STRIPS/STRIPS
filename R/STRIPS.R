@@ -7,9 +7,10 @@
 #' data newly made public.
 #'
 #' @section STRIPS data sets:
-#' \code{STRIPSMeta}
+#' \code{STRIPSMeta::watersheds}
+#' \code{STRIPSMeta::crop_rotation}
 #'
-#' @seealso \code{\link{STRIPSMeta}}
+#' @seealso \code{\link[STRIPSMeta]{STRIPSMeta}}
 #'
 #' @import STRIPSMeta
 #' @docType package
