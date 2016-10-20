@@ -10,5 +10,5 @@ immediately available to users, you should
 
   1. Add the package to DESCRIPTION in both the Depends: and Remotes: sections.
   2. Add the package to @import in the R/STRIPS/R documentation. 
-  3. Add the datasets to @section STRIPS data sets:
+  3. Add the package to @section STRIPS packages:
   4. Add a link to the package in @seealso

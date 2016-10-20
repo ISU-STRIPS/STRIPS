@@ -12,10 +12,9 @@ data are made public, this package will depend on those packages and thus
 reinstalling the updated version of this package will allow access to those
 data newly made public.
 }
-\section{STRIPS data sets}{
+\section{STRIPS packages}{
 
-\code{STRIPSMeta::watersheds}
-\code{STRIPSMeta::crop_rotation}
+  \code{\link[STRIPSMeta]{STRIPSMeta}}
 }
 \seealso{
 \code{\link[STRIPSMeta]{STRIPSMeta}}
