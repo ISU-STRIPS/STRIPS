@@ -8,7 +8,7 @@ Authors@R: c(
 Description: This package is just a shell meant to load other R data packages.
     At the moment, it only contains the STRIPS meta data, but other packages
     should be added soon.
-Depends:
+Imports:
     R (>= 3.0)
 License: GPL-2
 Encoding: UTF-8
