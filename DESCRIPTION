@@ -8,12 +8,13 @@ Authors@R: c(
 Description: This package is just a shell meant to load other R data packages.
     At the moment, it only contains the STRIPS meta data, but other packages
     should be added soon.
-Imports:
+Depends:
     R (>= 3.0)
+Imports:
+    STRIPSMeta
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-Depends: STRIPSMeta
 VignetteBuilder: knitr
 URL: https://github.com/ISU-STRIPS/STRIPS
 BugReports: https://github.com/ISU-STRIPS/STRIPS/issues
