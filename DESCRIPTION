@@ -1,6 +1,6 @@
 Package: STRIPS
 Title: Load all publically available STRIPS data.
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: c(
     person("Jarad", "Niemi", email = "niemi@iastate.edu", role = c("aut", "cre")),
     person("Lisa", "Schulte-Moore", email = "lschulte@iastate.edu", role = "aut")
