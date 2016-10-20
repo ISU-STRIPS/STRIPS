@@ -1,6 +1,6 @@
 # STRIPS
 
-A repository for STRIPS meta data and loading of all other public STRIPS data sets.
+An R package that loads all other public STRIPS data sets.
 
 ## Installation
 
@@ -19,7 +19,7 @@ To install this package, use
 
 The newly available data should be in an R package, e.g. 
 [STRIPSMeta](https://github.com/ISU-STRIPS/STRIPSMeta). 
-Ideally, this package git repository is under the 
+Ideally, this package is git repository is under the 
 [ISU-STRIPS organization](https://github.com/ISU-STRIPS) on 
 [github](https://github.com/).
 
