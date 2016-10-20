@@ -1,15 +1,22 @@
 Package: STRIPS
-Title: STRIPS meta data and loading of all other public STRIPS data sets.
-Version: 0.1
+Title: Load all publically available STRIPS data.
+Version: 0.1.1
 Authors@R: c(
     person("Jarad", "Niemi", email = "niemi@iastate.edu", role = c("aut", "cre")),
     person("Lisa", "Schulte-Moore", email = "lschulte@iastate.edu", role = "aut")
     )
-Description: Contains STRIPS meta data and loads other public STRIPS data sets
-    which are all created as individual packages by PI.
+Description: This package is just a shell meant to load other R data packages.
+    At the moment, it only contains the STRIPS meta data, but other packages
+    should be added soon.
 Depends:
     R (>= 3.0)
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
+Imports: STRIPSMeta
+VignetteBuilder: knitr
+URL: https://github.com/ISU-STRIPS/STRIPS
+BugReports: https://github.com/ISU-STRIPS/STRIPS/issues
+Remotes:
+    ISU-STRIPS/STRIPSMeta
 RoxygenNote: 5.0.1
