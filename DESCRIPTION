@@ -13,7 +13,7 @@ Depends:
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-Imports: STRIPSMeta
+Depends: STRIPSMeta
 VignetteBuilder: knitr
 URL: https://github.com/ISU-STRIPS/STRIPS
 BugReports: https://github.com/ISU-STRIPS/STRIPS/issues
