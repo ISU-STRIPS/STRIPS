@@ -19,7 +19,11 @@ To install this package, use
 
 The newly available data should be in an R package, e.g. 
 [STRIPSMeta](https://github.com/ISU-STRIPS/STRIPSMeta). 
+<<<<<<< HEAD
 Ideally, this package is a git repository under the 
+=======
+Ideally, this package is git repository is under the 
+>>>>>>> f3dde915e6086e9ca06ac3e958ad723b89854312
 [ISU-STRIPS organization](https://github.com/ISU-STRIPS) on 
 [github](https://github.com/).
 
