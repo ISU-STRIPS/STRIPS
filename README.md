@@ -18,8 +18,12 @@ To install this package, use
 ## Adding new publicly available R data packages
 
 The newly available data should be in an R package, e.g. 
-[STRIPSMeta](https://github.com/ISU-STRIPS/STRIPSMeta). To have that data 
-immediately available to users, you should 
+[STRIPSMeta](https://github.com/ISU-STRIPS/STRIPSMeta). 
+Ideally, this package git repository is under the 
+[ISU-STRIPS organization](https://github.com/ISU-STRIPS) on 
+[github](https://github.com/).
+
+To have that data immediately available to users, please
 
   1. Add the package to DESCRIPTION in both the Imports: and Remotes: sections.
   1. In R/STRIPS.R documentation, add the package to 
