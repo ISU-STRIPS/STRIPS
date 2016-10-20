@@ -28,5 +28,5 @@ To have that data immediately available to users, please
   1. Add the package to DESCRIPTION in both the Imports: and Remotes: sections.
   1. In R/STRIPS.R documentation, add the package to 
     - @import
-    - @section STRIPS packages:
-    - @seealso
+    - @section STRIPS packages: (as a link)
+    - @seealso (as a link)
