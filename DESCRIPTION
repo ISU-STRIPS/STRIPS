@@ -10,7 +10,7 @@ Description: This package is just a shell meant to load other R data packages.
     should be added soon.
 Depends: R (>= 3.0),
     STRIPSMeta
-License: GPL-2
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 VignetteBuilder: knitr
