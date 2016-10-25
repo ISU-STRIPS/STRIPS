@@ -30,3 +30,10 @@ To have that data immediately available to users, please
     - @import
     - @section STRIPS packages: (as a link)
     - @seealso (as a link)
+
+## Data sets ready to be included
+
+These data sets are ready to be made public pending PI approval:
+
+  - jarad/STRIPSHelmers
+  
