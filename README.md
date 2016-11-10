@@ -40,4 +40,4 @@ These data sets are ready to be made public pending PI approval:
   - jarad/STRIPSONeal
   - jarad/STRIPSyield
   - jarad/STRIPSSchulte
-  
+  - jarad/STRIPSKolka
