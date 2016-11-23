@@ -14,6 +14,7 @@ data newly made public.
 }
 \section{STRIPS packages}{
 
+  \code{\link[STRIPSHelmers]{STRIPSHelmers}}
   \code{\link[STRIPSMeta]{STRIPSMeta}}
 }
 \seealso{
