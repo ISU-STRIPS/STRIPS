@@ -8,7 +8,7 @@
 #'
 #' @section STRIPS packages:
 #'   \code{\link[STRIPSHelmers]{STRIPSHelmers}}
-#'   \code{\link[STRIPSHelmers]{STRIPSLiebman}}
+#'   \code{\link[STRIPSLiebman]{STRIPSLiebman}}
 #'   \code{\link[STRIPSMeta]{STRIPSMeta}}
 #'
 #' @seealso \code{\link[STRIPSMeta]{STRIPSMeta}}
