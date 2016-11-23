@@ -34,7 +34,7 @@ To have that data immediately available to users, please
 
 These data sets are ready to be made public pending PI approval:
 
-  - [] jarad/STRIPSHelmers
+  - [x] jarad/STRIPSHelmers
   - [] jarad/STRIPSLiebman
   - [] jarad/STRIPSONeal
   - [] jarad/STRIPSyield
