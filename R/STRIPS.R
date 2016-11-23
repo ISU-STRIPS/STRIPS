@@ -7,10 +7,12 @@
 #' data newly made public.
 #'
 #' @section STRIPS packages:
+#'   \code{\link[STRIPSHelmers]{STRIPSHelmers}}
 #'   \code{\link[STRIPSMeta]{STRIPSMeta}}
 #'
 #' @seealso \code{\link[STRIPSMeta]{STRIPSMeta}}
 #'
+#' @import STRIPSHelmers
 #' @import STRIPSMeta
 #' @docType package
 #' @name STRIPS

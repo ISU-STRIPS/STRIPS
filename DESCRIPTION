@@ -10,6 +10,8 @@ Description: This package is just a shell meant to load other R data packages.
     should be added soon.
 Depends: R (>= 3.0),
     STRIPSMeta
+Imports: 
+    STRIPSHelmers
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
@@ -17,5 +19,6 @@ VignetteBuilder: knitr
 URL: https://github.com/ISU-STRIPS/STRIPS
 BugReports: https://github.com/ISU-STRIPS/STRIPS/issues
 Remotes:
+    ISU-STRIPS/STRIPSHelmers
     ISU-STRIPS/STRIPSMeta
 RoxygenNote: 5.0.1
