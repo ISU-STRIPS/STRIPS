@@ -8,11 +8,13 @@
 #'
 #' @section STRIPS packages:
 #'   \code{\link[STRIPSHelmers]{STRIPSHelmers}}
+#'   \code{\link[STRIPSHelmers]{STRIPSLiebman}}
 #'   \code{\link[STRIPSMeta]{STRIPSMeta}}
 #'
 #' @seealso \code{\link[STRIPSMeta]{STRIPSMeta}}
 #'
 #' @import STRIPSHelmers
+#' @import STRIPSLiebman
 #' @import STRIPSMeta
 #' @docType package
 #' @name STRIPS
