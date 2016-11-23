@@ -36,8 +36,8 @@ These data sets are ready to be made public pending PI approval:
 
   - [x] jarad/STRIPSHelmers
   - [x] jarad/STRIPSLiebman
-  - [] jarad/STRIPSONeal
-  - [] jarad/STRIPSyield
-  - [] jarad/STRIPSSchulte
-  - [] jarad/STRIPSKolka
-  - [] jarad/STRIPSArbuckle
+  - [x] jarad/STRIPSONeal
+  - [x] jarad/STRIPSyield
+  - [x] jarad/STRIPSSchulte
+  - [x] jarad/STRIPSKolka
+  - [x] jarad/STRIPSArbuckle

@@ -9,10 +9,15 @@ Description: This package is just a shell meant to load other R data packages.
     At the moment, it only contains the STRIPS meta data, but other packages
     should be added soon.
 Depends: R (>= 3.0),
-    STRIPSMeta
-Imports:
     STRIPSHelmers,
-    STRIPSLiebman
+    STRIPSLiebman,
+    STRIPSMeta,
+    STRIPSONeal,
+    STRIPSyield,
+    STRIPSSchulte,
+    STRIPSKolka,
+    STRIPSArbuckle
+Imports: 
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
@@ -20,7 +25,12 @@ VignetteBuilder: knitr
 URL: https://github.com/ISU-STRIPS/STRIPS
 BugReports: https://github.com/ISU-STRIPS/STRIPS/issues
 Remotes:
+    ISU-STRIPS/STRIPSArbuckle,
     ISU-STRIPS/STRIPSHelmers,
+    ISU-STRIPS/STRIPSKolka,
     ISU-STRIPS/STRIPSLiebman,
-    ISU-STRIPS/STRIPSMeta
+    ISU-STRIPS/STRIPSMeta,
+    ISU-STRIPS/STRIPSONeal,
+    ISU-STRIPS/STRIPSSchulte,
+    ISU-STRIPS/STRIPSyield
 RoxygenNote: 5.0.1

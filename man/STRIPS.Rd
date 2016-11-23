@@ -14,9 +14,14 @@ data newly made public.
 }
 \section{STRIPS packages}{
 
+  \code{\link[STRIPSArbuckle]{STRIPSArbuckle}}
   \code{\link[STRIPSHelmers]{STRIPSHelmers}}
+  \code{\link[STRIPSKolka]{STRIPSKolka}}
   \code{\link[STRIPSLiebman]{STRIPSLiebman}}
   \code{\link[STRIPSMeta]{STRIPSMeta}}
+  \code{\link[STRIPONeal]{STRIPSONeal}}
+  \code{\link[STRIPSSchulte]{STRIPSSchulte}}
+  \code{\link[STRIPSyield]{STRIPSyield}}
 }
 \seealso{
 \code{\link[STRIPSMeta]{STRIPSMeta}}
