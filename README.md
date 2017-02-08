@@ -23,8 +23,8 @@ organization page.
 
   - STRIPSArbuckle
   - STRIPSHelmers
-  - STRIPSKolka
   - STRIPSHladik
+  - STRIPSKolka
   - STRIPSLiebman
   - STRIPSMeta
   - STRIPSONeal
@@ -47,3 +47,4 @@ To have that data immediately available to users, please
     - @import
     - @section STRIPS packages: (as a link)
     - @seealso (as a link)
+
