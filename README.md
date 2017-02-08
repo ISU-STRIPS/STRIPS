@@ -13,7 +13,24 @@ To install this package, use
 
     devtools::install_github("ISU-STRIPS/STRIPS")
 
-    
+
+## R packages included by this package
+
+A number of other R packages are automatically loaded when this R package is
+loaded. 
+This packages can all be found on the <https://github.com/ISU-STRIPS/> 
+organization page.
+
+  - STRIPSArbuckle
+  - STRIPSHelmers
+  - STRIPSKolka
+  - STRIPSHladik
+  - STRIPSLiebman
+  - STRIPSMeta
+  - STRIPSONeal
+  - STRIPSSchulte
+  - STRIPSyield
+
 
 ## Adding new publicly available R data packages
 
@@ -30,15 +47,3 @@ To have that data immediately available to users, please
     - @import
     - @section STRIPS packages: (as a link)
     - @seealso (as a link)
-
-## Data sets ready to be included
-
-These data sets are ready to be made public pending PI approval:
-
-  - jarad/STRIPSHelmers
-  - jarad/STRIPSLiebman
-  - jarad/STRIPSONeal
-  - jarad/STRIPSyield
-  - jarad/STRIPSSchulte
-  - jarad/STRIPSKolka
-  - jarad/STRIPSArbuckle
