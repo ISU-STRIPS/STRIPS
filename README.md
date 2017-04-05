@@ -21,15 +21,15 @@ loaded.
 This packages can all be found on the <https://github.com/ISU-STRIPS/> 
 organization page.
 
-  - STRIPSArbuckle
-  - STRIPSHelmers
-  - STRIPSHladik
-  - STRIPSKolka
-  - STRIPSLiebman
-  - STRIPSMeta
-  - STRIPSONeal
-  - STRIPSSchulte
-  - STRIPSyield
+  - [STRIPSArbuckle](https://github.com/ISU-STRIPS/STRIPSArbuckle)
+  - [STRIPSHelmers](https://github.com/ISU-STRIPS/STRIPSHelmers)
+  - [STRIPSHladik](https://github.com/ISU-STRIPS/STRIPSHladik)
+  - [STRIPSKolka](https://github.com/ISU-STRIPS/STRIPSKolka/)
+  - [STRIPSLiebman](https://github.com/ISU-STRIPS/STRIPSLiebman)
+  - [STRIPSMeta](https://github.com/ISU-STRIPS/STRIPSMeta)
+  - [STRIPSONeal](https://github.com/ISU-STRIPS/STRIPSONeal)
+  - [STRIPSSchulte](https://github.com/ISU-STRIPS/STRIPSSchulte)
+  - [STRIPSyield](https://github.com/ISU-STRIPS/STRIPSyield)
 
 
 ## Adding new publicly available R data packages
