@@ -14,15 +14,17 @@ data newly made public.
 }
 \section{STRIPS packages}{
 
-  \code{\link[STRIPSArbuckle]{STRIPSArbuckle}}
-  \code{\link[STRIPSHelmers]{STRIPSHelmers}}
-  \code{\link[STRIPSHladik]{STRIPSHladik}}
-  \code{\link[STRIPSKolka]{STRIPSKolka}}
-  \code{\link[STRIPSLiebman]{STRIPSLiebman}}
-  \code{\link[STRIPSMeta]{STRIPSMeta}}
-  \code{\link[STRIPONeal]{STRIPSONeal}}
-  \code{\link[STRIPSSchulte]{STRIPSSchulte}}
-  \code{\link[STRIPSyield]{STRIPSyield}}
+\itemize{
+  \item \code{\link[STRIPSArbuckle]{STRIPSArbuckle}}
+  \item \code{\link[STRIPSHelmers]{STRIPSHelmers}}
+  \item \code{\link[STRIPSHladik]{STRIPSHladik}}
+  \item \code{\link[STRIPSKolka]{STRIPSKolka}}
+  \item \code{\link[STRIPSLiebman]{STRIPSLiebman}}
+  \item \code{\link[STRIPSMeta]{STRIPSMeta}}
+  \item \code{\link[STRIPONeal]{STRIPSONeal}}
+  \item \code{\link[STRIPSSchulte]{STRIPSSchulte}}
+  \item \code{\link[STRIPSyield]{STRIPSyield}}
+}
 }
 \seealso{
 \code{\link[STRIPSMeta]{STRIPSMeta}}
