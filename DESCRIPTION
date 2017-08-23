@@ -17,6 +17,7 @@ Depends: R (>= 3.0),
     STRIPSMeta,
     STRIPSONeal,
     STRIPSSchulte,
+    STRIPSTyndall,
     STRIPSyield
 Imports: 
 License: GPL-3
@@ -34,5 +35,6 @@ Remotes:
     ISU-STRIPS/STRIPSMeta,
     ISU-STRIPS/STRIPSONeal,
     ISU-STRIPS/STRIPSSchulte,
+    ISU-STRIPS/STRIPSTyndall,
     ISU-STRIPS/STRIPSyield
 RoxygenNote: 5.0.1
