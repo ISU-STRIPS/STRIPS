@@ -6,40 +6,11 @@
 #' combination, and returns a data from of the results.
 #'
 #' @import dplyr
-#' @importFrom tidyr gather
-#' @importFrom plyr revalue
-#' @importFrom vegan diversity
+#' @export
 #' @examples
 #' d <- pnas()
 #'
 pnas <- function() {
-  # Helmers
-  ground_water <- STRIPSHelmers::groundwater %>%
-    filter(pos == 'foot') %>%
-    select(year,
-           month,
-           watershed,
-           no3mgladj,
-           po4mgladj) %>%
-    tidyr::gather(response, value, -year, -month, -watershed) %>%
-    mutate(Rpackage = "STRIPSHelmers", data = "groundwater")
-
-  surface_water <- STRIPSHelmers::surfacewater %>%
-    select(year,
-           watershed,
-           runoff_mm, sed_kgha, tn_kgha, tp_kgha, no3_kgha) %>%
-    tidyr::gather(response, value, -year, -watershed) %>%
-    mutate(Rpackage = "STRIPSHelmers", data = "surfacewater")
-
-
-
-  # yield
-  yield <- STRIPSyield::yield %>%
-    left_join(yield_conversion, by="crop") %>%
-    left_join(STRIPSMeta::watersheds, by="watershed") %>%
-    mutate(crop_prop = 1-prairie_pct/100) %>%
-    mutate(value = crop_prop * dryyield_buac * Mgha_per_buac,
-           Rpackage = "STRIPSyield", data = "yield")
 
 
   # Liebman
@@ -48,16 +19,14 @@ pnas <- function() {
 
   # ONeal
 
-  # Tyndall
-
   # I believe the following are not included: Iqbal, Harris, Kolka
 
-  bind_rows(ground_water,
-            surface_water,
-            yield) %>%
+  bind_rows(STRIPSHelmers::pnas_data(),
+            STRIPSTyndall::pnas_data(),
+            STRIPSyield::pnas_data()) %>%
     filter(year > 2007) %>%
-    select(  year, watershed, Rpackage, data, response, value) %>%
-    group_by(year, watershed, Rpackage, data, response) %>%
+    select(  PI, source, year, watershed, response, value) %>%
+    group_by(PI, source, year, watershed, response) %>%
     summarize(n = length(!is.na(value)),
               mean_response = mean(value, na.rm=TRUE))
 
